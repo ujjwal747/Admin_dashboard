@@ -1,8 +1,23 @@
-# React + Vite
+# Admin-dashbard
+# Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple web application for managing inventory statistics. It allows users to view and manipulate inventory data in both Admin and Client views.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View inventory statistics.
+- Toggle between Admin and Client views.
+- Edit inventory items.
+- Disable inventory items.
+
+## Technologies Used
+
+- React.js
+- JavaScript
+- HTML
+- CSS
+
+## Installation
+
+1. Clone the repository:
+
