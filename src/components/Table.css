@@ -1,0 +1,125 @@
+table{
+    padding: 1rem;
+    width: 100%;
+    background-color: rgba(47, 55, 61, 0.95);
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+table td{
+    color:white
+}
+
+th{
+    text-align: left;
+    color: #ffffb2;
+    width: 17.5%;
+}
+th span{
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+tr{
+    height: 2rem;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .popup.open {
+    display: flex;
+  }
+  
+  .popup-content {
+    background-color: #393939;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow */
+    color: white;
+  }
+  
+  .close {
+    text-align: right;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    margin:5px
+  }
+
+  .input-row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-container {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .input-container:last-child {
+    margin-right: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input{
+    border: 0px;
+    border-radius: 10px;
+    background: #7c7c7c;
+    color: white;
+    padding: 4px 10px;
+  }
+
+  input::placeholder {
+    color: wheat; 
+    opacity: 0.3;
+  }
+
+  .btns{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
+  .btns button{
+    border-radius: 10px;
+  }
+
+  .cancel{
+    background-color: #393939;
+    border: 0px;
+    color: yellow;
+  }
+
+  .save{
+    background: #7c7c7c;
+    border: 0px;
+  }
+
+  .disabled{
+    opacity: 0.3;
+  }
+
+  .disabled-btn{
+    opacity: 0.3;
+  }
+  
+  
+  
+
+  
